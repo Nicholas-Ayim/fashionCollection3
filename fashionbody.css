@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    outline:none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.overView{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    padding-top: 0.8rem;
+}
+.overView a{
+    cursor:pointer;
+    height:fit-content;
+    width:fit-content;
+    border-radius: 50px;
+    background: #eeeeeec6;
+    padding-top:0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    color:black;
+}
+.overView a:hover{
+    background: purple;
+}
+.recomFunction_container{
+    margin-top:2rem;
+    background: #E9E9E9;
+}
+.recomFunction{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 7rem;
+    width:1000px;
+    padding: 1.5rem;
+
+}
+
+.recomFunction .sortClick .fa-caret-down{
+    color:black;
+    cursor: pointer;
+
+}
+.sort{
+    display: none;
+}
+.recommendations{
+    display:flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap:1rem;
+    margin-left:4rem;
+    margin-right:2rem;
+    margin-top: 3rem;
+}
+.recommendations>div{
+    height:80vh;
+    width:300px;
+    border:1px solid inherit;
+
+}
+.imageGrid{
+    height:80%;
+    background:#FAFAFA;
+}
+.imageGrid img{
+    height: 100%;
+    width:100%;
+    object-fit: contain;
+    border:1px solid inherit;
+    border-radius: 0px;
+}
+.recommendations p a{
+    text-transform: capitalize;
+    color:black;
+    font-size: 12px;
+}
+.recommendations button{
+    border:1px solid black;
+}
+.next_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    height:50px;
+    width:300px;
+    font-size: 24px;
+    background: #E9E9E9;
+    text-align: center;
+}
+.nextBtn_position{
+    margin-top:1rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+}
+#initialCount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+}
+#firstNext{
+    display: none;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap:1rem;
+    margin-left:4rem;
+    margin-right:2rem;
+    margin-top: 3rem;
+}
+#firstNext>div{
+    height:80vh;
+    width:300px;
+    border:1px solid inherit;
+
+}
+.firstNext_container{
+    display: flex;
+    flex-wrap: wrap;
+    width:1350px;
+    overflow: hidden;
+}
+#secondNext{
+    display: none;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap:1rem;
+    margin-left:4rem;
+    margin-right:2rem;
+    margin-top: 3rem;
+}
+#secondNext>div{
+    height:80vh;
+    width:300px;
+    border:1px solid inherit;
+
+}
+.secondNext_container{
+    display: flex;
+    flex-wrap: wrap;
+    width:1350px;
+    overflow: hidden;
+}
+
+#thirdNext{
+    display: none;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap:1rem;
+    margin-left:4rem;
+    margin-right:2rem;
+    margin-top: 3rem;
+}
+#thirdNext>div{
+    height:80vh;
+    width:300px;
+    border:1px solid inherit;
+
+}
+.thirdNext_container{
+    display: flex;
+    flex-wrap: wrap;
+    width:1350px;
+    overflow: hidden;
+}
